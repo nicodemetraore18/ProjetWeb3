@@ -1,0 +1,397 @@
+#nv {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 10000;
+    
+}
+
+
+body {
+    padding-top: 70px; 
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a593f;
+    padding:10px 5% 20px 5%;
+
+}
+
+
+.left {
+  width: 45%;
+  margin-right: auto; /* Pousse Furni à gauche */
+}
+
+.right {
+  display: flex;
+   width: 45%;
+  margin-left: auto;
+}
+
+.right ul {
+
+    list-style-type: none;
+    padding: 0px;
+    display: flex; 
+
+}
+.icons{
+  width: 30%;
+  padding-left: 10%;
+}
+.ongletpoint{
+  width: 70;
+}
+
+.right li {
+    
+    margin: 15px;
+}
+
+.right li a {
+    text-decoration: none;
+    color: white;
+}
+.topnav .left h2 a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.topnav .left h2{
+   margin-top: 25px;
+}
+
+
+
+nav.topnav li a:hover:not(.active) {border-bottom: 4px solid yellow;}
+
+nav.topnav li a.active {border-bottom: 4px solid yellow;}
+
+.fauteuil{
+  padding: 0;
+
+}
+
+.home .left h1 {
+    color: white; 
+    font-family:Arial ;
+    font-size: 60px;
+}
+
+.home .left p{
+    color: white; 
+    font-family:Arial Black ;
+
+}
+
+.button {
+  border-radius: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 5px;
+  background-color: #1a593f;
+  color: white;
+  border: solid white;
+
+}
+.button:hover{
+  background-color: yellow;
+  color: black;
+  border: black;
+
+}
+.button1{
+  background-color: yellow;
+  color: black;
+  border: black;
+
+}
+.relativ{
+  position: relative;
+}
+.absolutep{
+  position: absolute;
+   width: 350px;
+   height: 350px;
+   right:-10%;
+   top: 0%;
+   background-image: url('images/pointille.png');
+   background-size: 100%; 
+   
+}
+.absolutef{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  right: 0%;
+  top: 15%;
+  background-image: url('images/couch.png');
+  background-size: 100%; 
+  
+}
+.home{
+  height: 450px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 20% auto auto auto;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+ 
+  font-size: 30px;
+  text-align: center;
+}
+.pblog{
+  padding:100px 5% 100px 5%;
+}
+.explore{
+  background-color: black;
+  color: white;
+  border: black;
+  border-radius: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  
+}
+/*.explore:hover{
+  background-color: black;
+  color: white;
+  border: black;
+}
+*/
+.produit{
+  border-radius:50px ;
+  padding-top: 30px;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.produit:hover{
+  background-color: #d5ebe2;
+
+}
+
+.ajouter{
+  position: relative;
+  top: 41px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  width: 39px;
+  height: 39px;
+}
+
+.pblogtext{
+  
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-top: 0;
+text-align: left;
+}
+.pblogtext p{
+  
+text-align: justify;
+
+}
+.pblogtext h1{
+  
+text-align: left;
+
+}
+
+.imgproduit{
+  position:relative;
+  width: 280px;
+  height: 280px;
+  bottom: 100px;
+}
+
+.description{
+  position: relative;
+  bottom: 100px;
+}
+#description{
+  font-size:20px;
+  font-family: Arial ;
+}
+
+.produit .ajouter {
+    display: none; /* Masquer le bouton par défaut */
+}
+
+.produit:hover .ajouter {
+    display: inline-block; /* Afficher le bouton lors du survol */
+}
+
+#aboutUs{
+  background-color: white;
+  padding:100px 5% 20px 5%;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.grid-container2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+  
+}
+
+
+#pointillejaune{
+  position: absolute;
+   width: 65%;
+   height: 350px;
+   top: -15%;
+   left: -15%;
+}
+#aboutusimg{
+  position: absolute;
+  width: 90%;
+  height: 550px;
+  top: 10%;
+  right: 0%;
+ 
+  
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #d5ebe2;
+}
+#fa{
+  font-size: 30px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+
+}
+.aboutUsleft{
+  font-size: 20px;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  font-size: 15px;
+  text-align: left;
+}
+
+#services{
+  background-color: white;
+  padding:100px 5% 20px 5%;
+
+  display: flex;
+
+}
+
+#pointillevert{
+  position: relative;
+  right: 100px;
+  width: 250px;
+  height: 250px;
+  
+
+}
+
+#Servicesimg1{
+  position: absolute;
+  border-radius: 10px;
+  width: 60%;
+  height: 550px;
+  left: 0px;
+  top:15%;
+  background-image:  url("images/Servicesimg1.jpg");
+  background-size: 100%; 
+}
+#Servicesimg2{
+  position: absolute;
+  border-radius: 10px;
+  right: 0px;
+  bottom:-10%;
+  width: 50%;
+  height: 400px;
+  background-image:url("images/Servicesimg2.jpg");
+  background-size: 100%; 
+
+
+}
+#Servicesimg3{
+  position: absolute;
+  border-radius: 10px;
+  right: 0px;
+  top:15%;
+  width: 30%;
+  height: 200px;
+  background-image:  url("images/Servicesimg3.jpg");
+  background-size: 100%; 
+
+  
+}
+
+#serviceleft {
+  width: 60%;
+  position: relative;
+  height: 675px;
+}
+
+#serviceright {
+   width: 40%;
+   padding-left: 10%;
+
+}
+
+.flex{
+  display: flex;
+}
+.point{
+  width: 50px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: black;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.grid-container3{
+  display: grid;
+  gap: 5px;
+  grid-template-columns:33% 33% 33%;
+}
+.produit2{
+  width: 40%;  
+}
+.decrireproduit{
+  width: 60%;  
+  padding-left: 10%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.imgproduit1{
+
+  width: 100%;
+  height: 100%;
+}
+.decrireproduit a{
+  text-decoration: none;
+  color: black;
+}
+
